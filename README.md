@@ -1,15 +1,43 @@
 
-# Análisis Estratégico de Ventas de Adidas en EE.UU.: Rentabilidad, Métodos de Venta y Oportunidades de Crecimiento
+# Análisis Estratégico de Ventas de Adidas en EE.UU.
 
-## 1. Introducción
+## 📄 Descripción del Proyecto
 
-En este proyecto, analizo datos de ventas de Adidas en EE.UU. para identificar patrones clave que optimicen la estrategia comercial. Los datos cubren ventas por región, retailer, producto y método de venta (online, físico, outlet).
+En este proyecto, analizo datos de ventas de Adidas en EE.UU. para identificar patrones clave que optimicen la estrategia comercial. Los datos cubren ventas por región, retailer, producto y método de venta.
 
 **Objetivo:** Identificar oportunidades para mejorar márgenes, redistribuir recursos y potenciar métodos de venta efectivos.
 
-## 2. Insights Clave
+Para analizar y extraer recomendaciones, he desarrollado cuatro dashboards que permiten examinar la información de manera segmentada, según los siguientes enfoques:
 
-### 📊 Desempeño de Ventas y Rentabilidad (dashboard 1)
+📊 Desempeño de Ventas y Rentabilidad.
+
+🏪 Eficiencia de Retailers.
+
+🌎 Análisis Geográfico.
+
+🛍️ Efectividad del Método de Venta.
+
+## 🔍 Fuente de la Base de Datos
+
+Los datos utilizados en este proyecto provienen del conjunto [Adidas US Sales ](https://www.kaggle.com/datasets/sagarmorework/adidas-us-sales/data), dataset disponible en Kaggle. Se trata de una base de datos ficticia pero diseñada para simular fielmente los datos transaccionales que podrían encontrarse en un entorno minorista real. Puedes profundizar en la base de datos ofrecida pinchando directamente el enlace anterior.
+
+## 👨‍🎓 Habilidades Demostradas
+
+| Herramientas para Power BI                | Habilidades necesarias para crear dashboards en Power BI        |
+|-------------------------------------------|-----------------------------------------------------------------|
+| Power BI Desktop                          | Conexión e integración de fuentes de datos                      |
+|                                           | Modelado de datos y establecimiento de relaciones               |
+| Power Query                               | Transformación y limpieza de datos                              |
+| DAX (Data Analysis Expressions)           | Creación de medidas, KPIs y cálculos personalizados             |
+| Visualizaciones integradas (gráficos, tablas, mapas, etc.) | Selección y personalización de visualizaciones adecuadas         |
+| Segmentaciones y filtros                  | Diseño de dashboards interactivos                               |
+| Temas y plantillas                        | Aplicación de principios de diseño visual y consistencia         |
+| Paneles y bookmarks                       | Organización y navegación eficiente en el dashboard              |
+
+
+## 🔍 Empezamos con el análisis
+
+### 📊 Dashboard 1. Desempeño de Ventas y Rentabilidad:
 
 #### Ventas por Región:
 - La Región Oeste encabeza las ventas con el 26,9% del total (23 millones de dólares en 2021), destacando California como el estado con mayores ventas dentro de la región (7 millones de dólares). En contraste, el Sureste registra ventas por 13 millones dólares, equivalentes al 16% del total, siendo Kentucky el estado con menor contribución en la región (1 millón  dólares, 9%).
@@ -23,9 +51,6 @@ En este proyecto, analizo datos de ventas de Adidas en EE.UU. para identificar p
 #### Tendencia Temporal: 
 - Las ventas en 2021 alcanzaron la cifra de 86,8 millones de dólares, un ascenso en las ventas del 260% respecto al año anterior. Por otro lado, las ganancias brutas ascendieron a 24,2 millones.
 - **Recomendación:** Capitalizar el crecimiento explosivo reforzando la inversión en canales digitales (publicidad segmentada y logística para demanda estacional) y optimizar el margen bruto (actualmente ~28%) mediante estrategias de pricing dinámico.
-
-#### Método de Venta Más Rentable:
-- El método online genera el 41% de los ingresos, pero el físico tiene mejor margen por unidad (17,7$ vs. 10,9$ online).
 
 #### 🔴 Extra. Ejemplo de análisis del "Waterfall Chart" del dashboard 1.
 **2021 - Crecimiento Mensual:**
@@ -53,7 +78,7 @@ En este proyecto, analizo datos de ventas de Adidas en EE.UU. para identificar p
 
 ---
 
-### 🏪 Eficiencia de Retailers (dashboard 2)
+### 🏪 Dashboard 2. Eficiencia de Retailers:
 
 #### Retailers Top:
 - Sports Direct tiene el mayor volumen (22 millones de dóalares) y yel mejor margen (30%).
@@ -90,7 +115,7 @@ El heatmap muestra la relación entre ventas totales y margen de ganancia para c
 - **Monitoreo continuo:** Implementar sistemas de alerta temprana para detectar desviaciones significativas en ventas o márgenes y reaccionar proactivamente.
 ---
 
-### 🌎 Análisis Geográfico (dashboard 3)
+### 🌎 Dashboard 3. Análisis Geográfico:
 
 #### Ciudades Clave:
 - Orlando, Los Ángeles y San Francisco concentran el 15% de las ventas. Charlotte destaca en ventas online (8,2% del total local).
@@ -125,7 +150,7 @@ El scatter chart muestra la relación entre ventas totales y ganancias operativa
 
 ---
 
-### 🛍️ Efectividad del Método de Venta (dashboard 4)
+### 🛍️ Dashboard 4. Efectividad del Método de Venta:
 
 #### Margen por Unidad:
 - Venta física lidera en margen por unidad (17,7$), pero el online vende 1,7 veces más unidades.
