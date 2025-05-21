@@ -17,9 +17,13 @@ Para analizar y extraer recomendaciones, he desarrollado cuatro dashboards que p
 
 🛍️ Efectividad del Método de Venta.
 
+📍 Queda a disposición de quien desee consultar el archivo de Power BI adjunto (Proyecto Adidas US Sales.pbix) para explorar el proyecto en mayor profundidad. De este modo, cualquier interesado puede analizar en detalle los datos, visualizaciones y conclusiones desarrolladas a lo largo del análisis.
+
 ## 🔍 Fuente de la Base de Datos
 
-Los datos utilizados en este proyecto provienen del conjunto [Adidas US Sales ](https://www.kaggle.com/datasets/sagarmorework/adidas-us-sales/data), dataset disponible en Kaggle. Se trata de una base de datos ficticia pero diseñada para simular fielmente los datos transaccionales que podrían encontrarse en un entorno minorista real. Puedes profundizar en la base de datos ofrecida pinchando directamente el enlace anterior.
+Los datos empleados en este proyecto provienen del conjunto [Adidas US Sales ](https://www.kaggle.com/datasets/sagarmorework/adidas-us-sales/data), disponible en la plataforma Kaggle. Aunque se trata de una base de datos ficticia, ha sido diseñada para simular de manera realista los datos transaccionales típicos de un entorno minorista. Si deseas explorar el conjunto de datos en mayor profundidad, puedes hacerlo accediendo al enlace anterior.
+
+Es importante tener en cuenta que, al tratarse de datos simulados, muchas de las conclusiones y recomendaciones derivadas del análisis podrían diferir de la realidad. Esto puede deberse a factores como la limitada variedad de productos, minoristas, estados o ciudades representados en el dataset, entre otros motivos.
 
 ## 👨‍🎓 Habilidades Demostradas
 
@@ -35,7 +39,7 @@ Los datos utilizados en este proyecto provienen del conjunto [Adidas US Sales ](
 | Paneles y bookmarks                       | Organización y navegación eficiente en el dashboard              |
 
 
-## 🔍 Empezamos con el análisis
+## 🧵 Empezamos con el análisis
 
 ### 📊 Dashboard 1. Desempeño de Ventas y Rentabilidad:
 
@@ -52,12 +56,13 @@ Los datos utilizados en este proyecto provienen del conjunto [Adidas US Sales ](
 - Las ventas en 2021 alcanzaron la cifra de 86,8 millones de dólares, un ascenso en las ventas del 260% respecto al año anterior. Por otro lado, las ganancias brutas ascendieron a 24,2 millones.
 - **Recomendación:** Capitalizar el crecimiento explosivo reforzando la inversión en canales digitales (publicidad segmentada y logística para demanda estacional) y optimizar el margen bruto (actualmente ~28%) mediante estrategias de pricing dinámico.
 
-#### 🔴 Extra. Ejemplo de análisis del "Waterfall Chart" del dashboard 1.
-**2021 - Crecimiento Mensual:**
+#### 🔴 Extra. Ejemplo de análisis del "Waterfall Chart" del dashboard 1:
+
+![2021 - Crecimiento Mensual](1imagen.PNG)
 
 **Tendencia general:** Extremadamente volátil, con variaciones desde **+579%** (enero) hasta **-17%** (febrero).
 
-**Patrón atípico:**
+**Patrones destacados:**
   - **Crecimiento explosivo en enero (+579%):** Posible efecto rebote post-cierre fiscal 2020 o lanzamiento de colección limitada.
   - **Caídas consecutivas:**
     - Febrero (-17%): Corrección tras crecimiento insostenible de enero. 
@@ -88,8 +93,9 @@ Los datos utilizados en este proyecto provienen del conjunto [Adidas US Sales ](
 - Walmart mantiene un margen saludable (23%), pero su volumen de ventas (106.427 unidades) es bajo comparado con líderes como Sports Direct (498.941 unidades)
 - **Recomendación:** Potenciar la relación con Walmart para escalar ventas sin comprometer el margen.
 
-#### 🔴 Extra. Ejemplo de análisis del "heatmap" del dashboard 2.
-**2021 – Relación Ventas vs. Margen de Ganancia por Retailer:**
+#### 🔴 Extra. Ejemplo de análisis del "heatmap" del dashboard 2:
+
+![2021 – Relación Ventas vs. Margen de Ganancia por Retailer](2imagen.PNG)
 
 El heatmap muestra la relación entre ventas totales y margen de ganancia para cinco retailers principales en 2021 (Amazon, Foot Locker, Kohl’s, Sports Direct, Walmart y West Gear), normalizados en una escala de 0 a 1. Se observan diferencias notables en la eficiencia operativa y la rentabilidad entre los distintos actores.
 
@@ -125,8 +131,10 @@ El heatmap muestra la relación entre ventas totales y margen de ganancia para c
 - Los outlets son populares en áreas suburbanas (ej: Orlando, zonas residenciales), mientras que las tiendas físicas tradicionales dominan en centros urbanos (ej: Manhattan, distritos comerciales).
 - **Recomendación:** Aprovechar esta segmentación geográfica para optimizar la estrategia omnicanal.
 
-#### 🔴 Extra. Ejemplo de análisis del scatter chart del dashboard 3.
-**2021 – Relación Ventas vs. Ganancia Operativa por Región**
+#### 🔴 Extra. Ejemplo de análisis del scatter chart del dashboard 3:
+
+![2021 – Relación Ventas vs. Ganancia Operativa por Región](3imagen.PNG)
+
 El scatter chart muestra la relación entre ventas totales y ganancias operativas en distintas regiones durante 2021. Cada punto representa un Estado, permitiendo visualizar cómo se distribuyen los resultados en términos de eficiencia operativa y volumen de ventas.
 
 **Patrones destacados:**
@@ -187,7 +195,7 @@ El scatter chart muestra la relación entre ventas totales y ganancias operativa
 
 ---
 
-## 3. Conclusiones y Acciones Propuestas
+## 💡 Conclusiones y Acciones Propuestas
 
 ### 🔑 Hallazgos Clave:
 1. **California y el retailer "Sports Direct" son joyas ocultas** por su alto margen.
@@ -198,3 +206,7 @@ El scatter chart muestra la relación entre ventas totales y ganancias operativa
 - **Lanzar una campaña regional** en California con productos de alto margen.
 - **Capacitar a vendedores físicos** en técnicas de upselling.
 - **Rediseñar la estrategia de outlets** para atraer tráfico con eventos locales.
+
+### 📌 Nota:
+
+En varias de las conclusiones y recomendaciones, cuando aparecen datos exagerados o muy sesgados, se busca deliberadamente ofrecer una explicación plausible y realista. Sin embargo, soy conscientes de que, en muchos casos, estas irregularidades se deben principalmente a la naturaleza ficticia del conjunto de datos. Este ejercicio permite mantener la coherencia del análisis, aunque es importante reconocer que algunas anomalías reflejan limitaciones inherentes al dataset simulado y no necesariamente situaciones reales del mercado.
